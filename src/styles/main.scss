@@ -20,7 +20,7 @@ body{
     color: $corTextoPrincipal;
 }
 
-@mixin text($fontSize: 40px){
+@mixin title($fontSize: 40px){
     @include text($fontSize);
     color: $corTextoSecundario;
 }
